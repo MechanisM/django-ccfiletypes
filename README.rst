@@ -31,7 +31,7 @@ the icon files into your static root::
 Usage
 =====================================
 
-Include the tags in your page::
+Include the tags in your template::
 
     {% load ccfiletype_tags %}
 
@@ -45,7 +45,7 @@ icon will return an icon for the filetype based on it's extention::
 
     {{object.filefield.path|icon:"size"}}
 
-It can be called with an argument for size where size can be small, medium,
+It can be called with an argument for size which can be small, medium,
 large or xlarge.  If no argument is supplied then small will be the default.
 
 The returned string from the icon filter is formed by using the value from 
