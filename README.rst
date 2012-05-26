@@ -66,8 +66,9 @@ A common usage for these filters would be for something like this::
 Attribution
 ----------------------
 
-The icons in this package come from the `Free File Icons`_ and a copy of
+The icons in this package come from the `Free File Icons`_ project by `Teambox`_ and a copy of
 the license can be found the ccfiletypes/static/filetypes directory.
 
 
 .. _Free File Icons: https://github.com/teambox/Free-file-icons
+.. _Teambox: http://www.teambox.com/
