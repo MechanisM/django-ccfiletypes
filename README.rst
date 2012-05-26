@@ -1,6 +1,5 @@
 About
--------------------
-
+=====================================
 ccfiltypes is a small collection of template filters for django that
 make the displaying of information from FileFields a little easier..
 
@@ -10,7 +9,7 @@ just the filename without the full path.
 
 
 Installation
--------------------
+=====================================
 
 Install via pip::
 
@@ -33,7 +32,7 @@ Include the tags in your page::
 Now you have access to two filters
 
 icon
-~~~~~~~~~~
+---------------
 
 icon will return an icon for the filetype based on it's extention::
 
@@ -47,14 +46,14 @@ settings.STATIC_URL.
 
 
 name
-~~~~~~~~~
+---------------
 
 name will return only the filename from a path::
 
     {{objects.filefield.path|name}}
 
 
-Full example
+Full Example
 --------------
 
 A common usage for these filters would be for something like this::
