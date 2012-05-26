@@ -22,7 +22,7 @@ the icon files into your static root::
 
 
 Usage
--------------------
+=====================================
 
 Include the tags in your page::
 
@@ -32,7 +32,7 @@ Include the tags in your page::
 Now you have access to two filters
 
 icon
----------------
+============
 
 icon will return an icon for the filetype based on it's extention::
 
@@ -46,7 +46,7 @@ settings.STATIC_URL.
 
 
 name
----------------
+============
 
 name will return only the filename from a path::
 
@@ -54,7 +54,7 @@ name will return only the filename from a path::
 
 
 Full Example
---------------
+=====================================
 
 A common usage for these filters would be for something like this::
 
@@ -63,7 +63,7 @@ A common usage for these filters would be for something like this::
 
 
 Attribution
-----------------------
+=====================================
 
 The icons in this package come from the `Free File Icons`_ project by `Teambox`_ and a copy of
 the license can be found the ccfiletypes/static/filetypes directory.
