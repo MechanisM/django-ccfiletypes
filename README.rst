@@ -33,16 +33,25 @@ Include the tags in your page::
 Now you have access to two filters
 
 icon
---------------
+~~~~~~~~~~
 
-Icon will return an icon for the filetype based on it's extention::
+icon will return an icon for the filetype based on it's extention::
 
     {{object.filefield.path|icon:"size"}}
 
 It can be called with an argument for size where size can be small, medium,
 large or xlarge.  If no argument is supplied then small will be the default.
 
+The returned string from the icon filter is formed by using the value from 
+settings.STATIC_URL. 
 
+
+name
+~~~~~~~~~
+
+name will return only the filename from a path::
+
+    {{objects.filefield.path|name}}
 
 
 Full example
@@ -50,11 +59,15 @@ Full example
 
 A common usage for these filters would be for something like this::
 
-    <img src="{{object.filefield.path|icon}}" alt="I
-
+    <img src="{{object.filefield.path|icon}}"
+         alt="{{object.filefield.path|name}}">
 
 
 Attribution
 ----------------------
 
-The icons in this package come from the .. _Free File Icons: https://github.com/teambox/Free-file-icons
+The icons in this package come from the `Free File Icons`_ and a copy of
+the license can be found the ccfiletypes/static/filetypes directory.
+
+
+.. _Free File Icons: https://github.com/teambox/Free-file-icons
