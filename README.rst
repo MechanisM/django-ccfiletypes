@@ -31,6 +31,9 @@ the icon files into your static root::
 Usage
 =====================================
 
+See the `documentation`_
+
+
 Include the tags in your template::
 
     {% load ccfiletype_tags %}
@@ -78,3 +81,4 @@ the license can be found the ccfiletypes/static/ccfiletypes directory.
 
 .. _Free File Icons: https://github.com/teambox/Free-file-icons
 .. _Teambox: http://www.teambox.com/
+.. _documentation: http://ccfiletypes.rtfd.org
