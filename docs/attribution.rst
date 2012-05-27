@@ -1,16 +1,3 @@
-About
-=====================================
-ccfiltypes is a small collection of template filters for django that
-make the displaying of information from FileFields a little easier..
-
-It's useful for displaying an icon for a certain filetype or getting
-just the filename without the full path.
-
-Checkout the `documentation`_.
-
-
-
-
 
 Attribution
 =====================================
